@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- SEO META -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DEO GYM - Premium Fitness Gym with Personal Training, Fat Loss, Muscle Gain Programs and Modern Equipment." />
+  <meta name="keywords" content="Gym, Fitness, Workout, Muscle Gain, Fat Loss, DEO GYM" />
+  <meta name="author" content="DEO GYM" />
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="DEO GYM" />
+  <meta property="og:description" content="Transform Your Body at DEO GYM" />
+  <meta property="og:image" content="assets/deohero.jpg" />
+  <meta property="og:type" content="website" />
+
+  <title>DEO GYM</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" href="assets/favicon.png" />
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader">
+    <div class="loader-ring"></div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop">↑</button>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">DEO GYM</div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#owner">About Owner</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#bmi">BMI Calculator</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="overlay"></div>
+
+    <div class="particles"></div>
+
+    <div class="hero-content">
+      <h1>Transform Your Body at DEO GYM</h1>
+
+      <p>
+        Build Strength. Burn Fat. Become Your Best Version.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#pricing" class="btn primary-btn">JOIN NOW</a>
+        <a href="#services" class="btn secondary-btn">OUR SERVICES</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- OWNER -->
+  <section id="owner" class="section reveal">
+    <div class="container owner-card card">
+      <div class="owner-image">
+        <img
+          loading="lazy"
+          src="https://images.unsplash.com/photo-1567013127542-490d757e6349?q=80&w=800"
+          alt="DEO GYM Owner"
+        />
+      </div>
+
+      <div class="owner-content">
+        <h2>DEO GYM OWNER</h2>
+        <h4>Founder & Fitness Coach</h4>
+
+        <p>
+          Helping individuals transform their lives through disciplined
+          fitness, premium coaching, and powerful motivation.
+        </p>
+
+        <a href="#contact" class="btn primary-btn">Contact Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section reveal">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services-grid">
+
+      <div class="card service-card">
+        <h3>Weight Training</h3>
+        <p>Professional strength training programs for all experience levels.</p>
+      </div>
+
+      <div class="card service-card">
+        <h3>Fat Loss Program</h3>
+        <p>Burn calories and transform your body with guided workouts.</p>
+      </div>
+
+      <div class="card service-card">
+        <h3>Personal Training</h3>
+        <p>Customized coaching sessions tailored to your fitness goals.</p>
+      </div>
+
+      <div class="card service-card">
+        <h3>Cardio Training</h3>
+        <p>High-energy cardio sessions to improve endurance and stamina.</p>
+      </div>
+
+      <div class="card service-card">
+        <h3>Muscle Building</h3>
+        <p>Structured hypertrophy programs for maximum muscle growth.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section reveal">
+    <h2 class="section-title">Membership Plans</h2>
+
+    <div class="pricing-grid">
+
+      <div class="card pricing-card">
+        <h3>Basic</h3>
+        <h2>₹399</h2>
+
+        <ul>
+          <li>Gym Access</li>
+          <li>Basic Equipment</li>
+          <li>Locker Access</li>
+        </ul>
+
+        <button class="btn primary-btn choose-plan" data-plan="Basic Plan ₹399">
+          Choose Plan
+        </button>
+      </div>
+
+      <div class="card pricing-card">
+        <h3>Standard</h3>
+        <h2>₹699</h2>
+
+        <ul>
+          <li>All Basic Features</li>
+          <li>Diet Guidance</li>
+          <li>Cardio Access</li>
+        </ul>
+
+        <button class="btn primary-btn choose-plan" data-plan="Standard Plan ₹699">
+          Choose Plan
+        </button>
+      </div>
+
+      <div class="card pricing-card premium">
+        <span class="premium-badge">MOST POPULAR</span>
+
+        <h3>Premium</h3>
+        <h2>₹1499</h2>
+
+        <ul>
+          <li>Personal Training</li>
+          <li>Advanced Programs</li>
+          <li>Nutrition Coaching</li>
+        </ul>
+
+        <button class="btn primary-btn choose-plan" data-plan="Premium Plan ₹1499">
+          Choose Plan
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section reveal">
+    <h2 class="section-title">Gym Gallery</h2>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-card">
+        <img loading="lazy" src="assets/deogallery1.jpeg" alt="Gym Gallery Image 1">
+      </div>
+
+      <div class="gallery-card">
+        <img loading="lazy" src="assets/deogallery2.jpeg" alt="Gym Gallery Image 2">
+      </div>
+
+      <div class="gallery-card">
+        <img loading="lazy" src="assets/deogallery3.jpeg" alt="Gym Gallery Image 3">
+      </div>
+
+      <div class="gallery-card">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800" alt="Gym Workout">
+      </div>
+
+      <div class="gallery-card">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800" alt="Fitness Equipment">
+      </div>
+
+      <div class="gallery-card">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800" alt="Fitness Training">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section reveal">
+    <h2 class="section-title">About DEO GYM</h2>
+
+    <div class="about-grid">
+
+      <div class="card stat-card">
+        <h2 class="counter" data-target="500">0</h2>
+        <p>Happy Members</p>
+      </div>
+
+      <div class="card stat-card">
+        <h2 class="counter" data-target="10">0</h2>
+        <p>Certified Trainers</p>
+      </div>
+
+      <div class="card stat-card">
+        <h2 class="counter" data-target="15">0</h2>
+        <p>Modern Machines</p>
+      </div>
+
+    </div>
+
+    <div class="about-text card">
+      <p>
+        DEO GYM provides modern equipment, expert coaching, motivating
+        atmosphere, and scientifically designed fitness programs.
+      </p>
+
+      <a href="#booking" class="btn primary-btn">Book Membership</a>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section reveal">
+    <h2 class="section-title">Find Us</h2>
+
+    <div class="card map-card">
+      <iframe
+        src="https://maps.google.com/maps?q=lucknow&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking" class="section reveal">
+    <h2 class="section-title">Online Booking</h2>
+
+    <form id="bookingForm" class="card booking-form">
+
+      <input type="text" id="name" placeholder="Full Name" required>
+
+      <input type="tel" id="mobile" placeholder="Mobile Number" required>
+
+      <select id="gender" required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+
+      <input type="number" id="age" placeholder="Age">
+
+      <input type="text" id="goal" placeholder="Fitness Goal">
+
+      <select id="servicesSelect" multiple>
+        <option>Weight Training</option>
+        <option>Fat Loss</option>
+        <option>Personal Training</option>
+      </select>
+
+      <input type="text" id="selectedPlan" placeholder="Pricing Plan">
+
+      <input type="date" id="joinDate">
+
+      <textarea id="message" placeholder="Additional Message"></textarea>
+
+      <button type="submit" class="btn primary-btn">
+        Join The Gym
+      </button>
+
+    </form>
+  </section>
+
+  <!-- BMI -->
+  <section id="bmi" class="section reveal">
+    <h2 class="section-title">BMI Calculator</h2>
+
+    <div class="card bmi-card">
+      <input type="number" id="height" placeholder="Height (cm)">
+      <input type="number" id="weight" placeholder="Weight (kg)">
+
+      <button id="calculateBMI" class="btn primary-btn">
+        Calculate BMI
+      </button>
+
+      <div id="bmiResult"></div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section reveal">
+    <h2 class="section-title">Client Reviews</h2>
+
+    <div class="reviews-grid">
+
+      <div class="card review-card">
+        <h3>Rahul</h3>
+        <p>Best gym environment and trainers.</p>
+        <span>⭐⭐⭐⭐⭐</span>
+      </div>
+
+      <div class="card review-card">
+        <h3>Arjun</h3>
+        <p>Amazing transformation experience.</p>
+        <span>⭐⭐⭐⭐⭐</span>
+      </div>
+
+      <div class="card review-card">
+        <h3>Priya</h3>
+        <p>Professional coaching and friendly atmosphere.</p>
+        <span>⭐⭐⭐⭐⭐</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SOCIAL -->
+  <section id="contact" class="section reveal">
+    <h2 class="section-title">Connect With Us</h2>
+
+    <div class="social-grid">
+
+      <a href="#" class="card social-card">WhatsApp</a>
+      <a href="#" class="card social-card">Instagram</a>
+      <a href="#" class="card social-card">Facebook</a>
+
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section class="section reveal">
+    <h2 class="section-title">Fitness Blogs</h2>
+
+    <div class="blog-grid">
+
+      <div class="card blog-card">
+        <h3>Best Workout Tips</h3>
+        <p>Improve your training efficiency with smart routines.</p>
+      </div>
+
+      <div class="card blog-card">
+        <h3>Diet Plans</h3>
+        <p>Nutrition strategies for better fitness performance.</p>
+      </div>
+
+      <div class="card blog-card">
+        <h3>Muscle Gain Guide</h3>
+        <p>Learn how to maximize hypertrophy and recovery.</p>
+      </div>
+
+      <div class="card blog-card">
+        <h3>Fat Loss Tips</h3>
+        <p>Scientifically proven fat-burning methods.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h2>DEO GYM</h2>
+
+    <p>Transform Your Body. Transform Your Life.</p>
+
+    <div class="footer-links">
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+
+    <p>© 2026 DEO GYM. All Rights Reserved.</p>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox">
+    <img src="" alt="">
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
